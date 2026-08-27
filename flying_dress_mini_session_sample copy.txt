@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The 30-Minute Flying Dress Experience</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Georgia,serif;color:#26231f;background:#f7f4ef;line-height:1.6}
+  .sans{font-family:Arial,Helvetica,sans-serif}
+  .hero{min-height:92vh;display:flex;align-items:end;padding:70px 7%;position:relative;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.72)),url('hero-flying-dress.png') center/cover no-repeat;background-color:#8d8175;color:white}
+  .hero-content{max-width:760px}
+  .eyebrow{text-transform:uppercase;letter-spacing:3px;font:600 12px Arial,sans-serif;margin-bottom:18px}
+  h1{font-size:clamp(48px,7vw,92px);line-height:.95;font-weight:400;margin:0 0 24px}
+  h2{font-size:clamp(38px,5vw,64px);line-height:1.05;font-weight:400;margin:0 0 24px}
+  h3{font-size:27px;font-weight:400;margin:0 0 10px}
+  p{font-size:18px}
+  .hero p{max-width:650px;font-size:20px}
+  .btn{display:inline-block;padding:16px 28px;background:#fff;color:#27231f;text-decoration:none;text-transform:uppercase;letter-spacing:2px;font:600 12px Arial,sans-serif;margin-top:18px}
+  .limited{font:12px Arial,sans-serif;text-transform:uppercase;letter-spacing:2px;margin-top:18px}
+  section{padding:100px 7%}
+  .intro{text-align:center;max-width:850px;margin:auto}
+  .intro p{max-width:680px;margin:0 auto}
+  .three{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:60px}
+  .card{background:#fff;padding:36px}
+  .placeholder{background:#c9c0b5;min-height:360px;display:flex;align-items:center;justify-content:center;color:#6d655c;font:600 12px Arial,sans-serif;letter-spacing:2px;text-transform:uppercase}
+  .short-line{text-align:center;margin:80px auto 0}
+  .short-line .big{font-size:42px;line-height:1.15}
+  .dark{background:#292723;color:#fff}
+  .features{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+  .feature-copy{padding:10px}
+  .price{font-size:52px;margin:25px 0 5px}
+  .gallery{display:grid;grid-template-columns:1.4fr .8fr;gap:18px;margin-top:55px}
+  .gallery .large{min-height:600px}
+  .gallery-side{display:grid;gap:18px}
+  .gallery-side .placeholder{min-height:291px}
+  .triptych{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+  .triptych .placeholder{min-height:330px}
+  .statement{text-align:center;padding:110px 7%}
+  .statement .big{font-size:clamp(38px,6vw,70px);line-height:1}
+  .overlay-section{position:relative;color:#fff;background:linear-gradient(90deg,rgba(20,18,16,.82),rgba(20,18,16,.35)),url('flying-dress-backlight.png') center/cover;background-color:#655d55}
+  .overlay-section .copy{max-width:700px}
+  .overlay-section p{font-size:21px}
+  .availability{text-align:center}
+  .dates{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:1000px;margin:50px auto}
+  .date{background:#fff;padding:25px 15px;border:1px solid #ddd5cc}
+  .date strong{display:block;font-size:20px}
+  .faq{max-width:900px;margin:55px auto 0}
+  details{border-top:1px solid #d5cdc4;padding:22px 0;font-family:Arial,sans-serif}
+  summary{cursor:pointer;font-weight:600;font-size:16px}
+  .final{padding:0;min-height:600px;display:flex;align-items:center;justify-content:center;text-align:center;color:white;background:linear-gradient(rgba(20,18,16,.45),rgba(20,18,16,.7)),url('final-flying-dress.png') center/cover;background-color:#7e746b}
+  .final h2{font-size:clamp(46px,7vw,86px)}
+  .final .price{font-family:Georgia,serif}
+  footer{text-align:center;padding:35px;font:11px Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;color:#777}
+  @media(max-width:800px){
+    section{padding:70px 6%}
+    .hero{min-height:85vh;padding:50px 6%}
+    .three,.features,.dates{grid-template-columns:1fr}
+    .gallery{grid-template-columns:1fr}
+    .gallery .large{min-height:430px}
+    .triptych{grid-template-columns:1fr}
+    .triptych .placeholder{min-height:280px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="eyebrow">The 30-Minute Flying Dress Experience</div>
+    <h1>Experience the photography.<br>Not the full commitment.</h1>
+    <h3>30-Minute Mini Sessions</h3>
+    <p><strong>Five fully retouched images • $350</strong></p>
+    <p>A chance to experience our photography in a simple, intentional 30-minute session designed for those who want beautiful professional images without committing to a full session.</p>
+    <a class="btn" href="#">Reserve Your Mini Session</a>
+    <div class="limited">Limited availability</div>
+  </div>
+</header>
+
+<section>
+  <div class="intro">
+    <div class="eyebrow">Why a Mini Session?</div>
+    <h2>You don't need a full session to create something beautiful.</h2>
+  </div>
+  <div class="three">
+    <div class="card">
+      <div class="placeholder">image1.png</div>
+      <h3>You've been thinking about it.</h3>
+      <p>You've wanted professional photographs but haven't wanted to commit to a full session.</p>
+    </div>
+    <div class="card">
+      <div class="placeholder">image2.png</div>
+      <h3>You want something intentional.</h3>
+      <p>Beautiful photographs without spending hours in front of the camera.</p>
+    </div>
+    <div class="card">
+      <div class="placeholder">image3.png</div>
+      <h3>You want to experience us.</h3>
+      <p>See what it's like to be guided, directed, photographed and transformed into artwork.</p>
+    </div>
+  </div>
+  <div class="short-line">
+    <div class="big">30 minutes.<br>Five photographs.<br><strong>A whole lot of you.</strong></div>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="features">
+    <div>
+      <div class="placeholder" style="min-height:600px">image4.png</div>
+    </div>
+    <div class="feature-copy">
+      <div class="eyebrow">Your Mini Session Includes</div>
+      <h2>Everything you need.<br>Nothing you don't.</h2>
+      <h3>30-Minute Photography Session</h3>
+      <p>Enough time to relax, get comfortable, and create something meaningful without the commitment of a full session.</p>
+      <h3>5 Fully Retouched Images</h3>
+      <p>Select your five favorites from your gallery and we'll carefully retouch each one.</p>
+      <h3>The Full Photography Experience</h3>
+      <p>The same attention to posing, direction, lighting and artistry that goes into every session.</p>
+      <div class="price">$350</div>
+      <a class="btn" href="#">Reserve Your Session</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="intro">
+    <div class="eyebrow">The Proof</div>
+    <h2>What can you create in 30 minutes?</h2>
+    <p>More than you might think.</p>
+  </div>
+  <div class="gallery">
+    <div class="placeholder large">flying-dress-wide.png</div>
+    <div class="gallery-side">
+      <div class="placeholder">flying-dress-motion.png</div>
+      <div class="placeholder">flying-dress-portrait.png</div>
+    </div>
+  </div>
+  <div class="triptych">
+    <div class="placeholder">flying-dress-detail.png</div>
+    <div class="placeholder">flying-dress-silhouette.png</div>
+    <div class="placeholder">flying-dress-landscape.png</div>
+  </div>
+  <div class="statement">
+    <div class="big">Wait...<br><strong>THAT came from 30 minutes?</strong></div>
+  </div>
+</section>
+
+<section class="overlay-section">
+  <div class="copy">
+    <div class="eyebrow">What This Isn't</div>
+    <h2>This isn't a lesser version of what we do.</h2>
+    <p><strong>It's a smaller experience.</strong></p>
+    <p>You aren't getting rushed-through-the-mall-studio photography. You're getting our approach, our direction, our attention to posing, our use of light, and our artistry—simply within a 30-minute window and with five finished images.</p>
+    <p>If you've been curious about working with us, this is your chance to experience it.</p>
+    <h3>The experience is us.<br>The scope is smaller.</h3>
+    <a class="btn" href="#">Reserve Your Mini Session</a>
+  </div>
+</section>
+
+<section class="availability">
+  <div class="intro">
+    <div class="eyebrow">Limited Availability</div>
+    <h2>We don't offer these every day.</h2>
+    <p>We only open a limited number of mini-session dates throughout the year. Once those sessions are booked, this offer closes.</p>
+  </div>
+  <div class="dates">
+    <div class="date"><strong>Sept 12</strong>9:00 AM<br>10:00 AM<br>11:00 AM</div>
+    <div class="date"><strong>Sept 13</strong>8:30 AM<br>9:30 AM<br>10:30 AM</div>
+    <div class="date"><strong>Sept 19</strong>4:00 PM<br>5:00 PM<br>6:00 PM</div>
+    <div class="date"><strong>Sept 20</strong>4:30 PM<br>5:30 PM<br>6:30 PM</div>
+  </div>
+  <a class="btn" style="background:#292723;color:#fff" href="#">Reserve Your Time</a>
+</section>
+
+<section>
+  <div class="intro">
+    <div class="eyebrow">Your Five Images</div>
+    <h2>What happens if you love more?</h2>
+    <p>Your session includes <strong>five fully retouched images</strong> of your choice.</p>
+    <p>After your session, you'll receive a gallery where you can select your favorites. And if you fall in love with more than five...</p>
+    <h3>Additional images are available.</h3>
+    <p><em>Because sometimes choosing only five is harder than taking them.</em></p>
+  </div>
+</section>
+
+<section style="padding-top:50px">
+  <div class="intro">
+    <div class="eyebrow">Questions</div>
+    <h2>Frequently Asked Questions</h2>
+  </div>
+  <div class="faq">
+    <details open><summary>How long is the session?</summary><p>30 minutes. The session is focused and efficient while still giving you time to relax, get comfortable, and create beautiful images.</p></details>
+    <details><summary>How many images do I receive?</summary><p>Five fully retouched images of your choice. You'll select your favorites from your gallery after the session.</p></details>
+    <details><summary>Can I purchase additional images?</summary><p>Yes. Your five images are included. If you fall in love with additional photographs, you'll have the opportunity to purchase them separately.</p></details>
+    <details><summary>Do I need to know how to pose?</summary><p>Absolutely not. That's part of what you're hiring us for. We'll guide you through poses, movement, expression and positioning throughout your session.</p></details>
+    <details><summary>What should I wear?</summary><p>For a Flying Dress Mini Session, your dress becomes part of the experience. We'll guide you through movement and posing so you don't have to worry about knowing what to do.</p></details>
+    <details><summary>What happens if the weather doesn't cooperate?</summary><p>We'll work with you to determine whether conditions are suitable for your session and make adjustments when necessary.</p></details>
+  </div>
+</section>
+
+<section class="final">
+  <div>
+    <div class="eyebrow">Ready?</div>
+    <h2>30 minutes.<br>Five photographs.<br><strong>A whole lot of you.</strong></h2>
+    <div class="price">$350</div>
+    <p>Five fully retouched images<br>30-minute guided photography experience</p>
+    <a class="btn" href="#">Reserve Your Mini Session</a>
+    <div class="limited">Limited availability</div>
+  </div>
+</section>
+
+<footer>Eridon Photography • Sedona, Arizona</footer>
+
+</body>
+</html>
